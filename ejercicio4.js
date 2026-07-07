@@ -5,14 +5,14 @@ for (let i = 0; i < movimientos.length; i++) {
 
    
     if (movimientoActual === 0) {
-        console.log("Posición " + i + ": Movimiento vacío ($0). ");
+        console.log("Posición " + i + ": Movimiento vacío . ");
         continue; 
     }
 
    
     if (movimientoActual < 0) {
         console.log(" Primer pago encontrado!");
-        console.log("Monto: $" + movimientoActual + "  Movimiento encontrado # " + i);
+        console.log("Monto: " + movimientoActual + "  Movimiento encontrado # " + i);
         
         
         break; 
